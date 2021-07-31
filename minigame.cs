@@ -209,11 +209,6 @@ namespace _NETApplication
                         continue;
                     }
 
-                    /* if (num > 10 || num < 1) // Checks if number is between 1 and 10
-                     {
-                         PrintColourMessage(ConsoleColor.Red, "Number must be between 1 and 10"); // Prompts user for valid input
-                         continue; 
-                     } */
                     // Gets colour from user
                     Console.Write("Write a colour: ");
                     int length = 0;
