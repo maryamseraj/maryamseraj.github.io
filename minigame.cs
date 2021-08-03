@@ -110,7 +110,7 @@ namespace _NETApplication
                         } // End of if statement
                         else if (guess <= 0 || guess > 10)
                         {
-                            PrintColourMessage(ConsoleColor.Red, "Please enter a number betweenn 1 and 10"); // Prompts user foe valid input
+                            PrintColourMessage(ConsoleColor.Red, "Please enter a number betweenn 1 and 10"); // Prompts user for valid input
                             continue;
                         }
                         else if (!int.TryParse(input, out guess)) // checks if input is a number
